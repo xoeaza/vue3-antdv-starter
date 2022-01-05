@@ -1,0 +1,27 @@
+.ant-btn {
+  background: rgba(13, 77, 237, 0.1);
+  height: 36px;
+  border-radius: 4px;
+  color: #0d4ded;
+  line-height: 20px;
+  border: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #0d4ded;
+    background: #dce7ff;
+  }
+}
+
+.ant-btn-primary {
+  color: #ffffff;
+  background: #0d4ded;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #ffffff;
+    background: #0a37a9;
+  }
+}

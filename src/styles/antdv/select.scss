@@ -1,0 +1,10 @@
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #f2f4f9;
+  border: none;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  // box-shadow: 0 0 0 1px rgba(196, 199, 205, 0.3);
+  box-shadow: 0 0 0 1px #0d4ded;
+}

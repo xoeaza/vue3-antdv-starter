@@ -1,0 +1,28 @@
+.ant-table-thead > tr > th .ant-table-header-column {
+  font-weight: bold;
+  color: #393b41;
+  line-height: 20px;
+}
+
+.ant-table-thead > tr > th {
+  background: #fff;
+}
+
+.ant-table-thead
+  > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td,
+.ant-table-tbody
+  > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td,
+.ant-table-thead
+  > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td,
+.ant-table-tbody
+  > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td {
+  background: #fbfcfe;
+}
+
+.ant-table-tbody > tr > td.ant-table-column-sort {
+  background: #fff;
+}
