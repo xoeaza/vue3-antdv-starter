@@ -24,7 +24,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  const title = to.meta.title || "gwms_customer";
+  const title = to.meta.title || "";
   document.title = title;
   next();
 });
