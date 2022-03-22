@@ -1,5 +1,5 @@
 {
-  "name": "gwms_customer",
+  "name": "name",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,12 +7,13 @@
     "serve": "vue-cli-service serve --mode development",
     "build:prod": "vue-cli-service build --mode production",
     "build:test": "vue-cli-service build --mode test",
-    "lint": "eslint ./src --ext .js,.vue"
+    "lint": "eslint ./src --ext .js,.vue",
+    "reinstall": "rimraf node_modules && npm i"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.0.1",
     "@vueuse/core": "^6.7.6",
-    "ant-design-vue": "^2.2.8",
+    "ant-design-vue": "3.1.0-rc.2",
     "axios": "^0.23.0",
     "core-js": "^3.6.5",
     "dayjs": "^1.10.7",
